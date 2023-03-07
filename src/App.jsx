@@ -14,8 +14,7 @@ function App() {
           <h2>your result</h2>
 
           <div className="score">
-            <h1
-              className="rounded-full bg-zinc-600">
+            <h1 className="rounded-full bg-zinc-600 w-64 h-64 flex justify-center items-center">
               76
             </h1>
             <p>out of 100</p>
