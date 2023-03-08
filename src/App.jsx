@@ -13,10 +13,13 @@ function App() {
         <div className="bg-black rounded-lg overflow-hidden shadow-md h-96">
           <h2>your result</h2>
 
-          <div className="score">
-            <h1 className="rounded-full bg-zinc-600 w-64 h-64 flex justify-center items-center">
-              76
-            </h1>
+          <div className="right card">
+            <div className="flex justify-center items-center">
+              <h1 className="rounded-full bg-zinc-600 w-64 h-64 flex justify-center items-center">
+                76
+              </h1>
+            </div>
+
             <p>out of 100</p>
 
             <h2> Great</h2>
