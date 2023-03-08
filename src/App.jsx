@@ -10,7 +10,7 @@ function App() {
       {/* prob need to set the wole container for regulating two big collumns then the riht card will have a bunch of rows. */}
       <div className="mx-auto columns-2	gap-3">
         {/* big container */}
-        <div className="leftcard">
+        <div className="bg-black rounded-lg overflow-hidden shadow-md h-96">
           <h2>your result</h2>
 
           <div className="score">
@@ -29,7 +29,7 @@ function App() {
         </div>
         {/* this is the seperation between left card and right card. */}
 
-        <div className="right card ">
+        <div className="bg-black rounded-lg overflow-hidden shadow-md h-96">
           <h2>Sumary</h2>
           <div className=" h-14 w-96 bg-red-500 rounded-lg">
             <h3>reaction</h3>
@@ -43,15 +43,15 @@ function App() {
           <div className=" h-14 w-96 bg-purple-500 rounded-lg">
             {/* icon goes here */} <h3>visual</h3>
           </div>
-        </div>
 
-        <button
-          className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-          type="submit"
-        >
-          {" "}
-          Continue
-        </button>
+          <button
+            className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+            type="submit"
+          >
+            {" "}
+            Continue
+          </button>
+        </div>
       </div>
     </div>
   );
