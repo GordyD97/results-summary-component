@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import data from "./data.json";
 import "./App.css";
 
 function App() {
@@ -34,17 +35,20 @@ function App() {
 
         <div className="bg-black rounded-lg overflow-hidden shadow-md h-96">
           <h2>Sumary</h2>
-          <div className=" h-14 w-96 bg-red-500 rounded-lg">
-            <h3>reaction</h3>
-          </div>
-          <div className=" h-14 w-96 bg-yellow-500 rounded-lg">
-            {/* icon goes here */} <h3>memory</h3>
-          </div>
-          <div className=" h-14 w-96 bg-green-500 rounded-lg">
-            {/* icon goes here */} <h3>verbal</h3>
-          </div>
-          <div className=" h-14 w-96 bg-purple-500 rounded-lg">
-            {/* icon goes here */} <h3>visual</h3>
+
+          <div className="">
+            <div className=" h-14 w-96 bg-red-500 rounded-lg">
+              <h3>reaction</h3>
+            </div>
+            <div className=" h-14 w-96 bg-yellow-500 rounded-lg">
+              {/* icon goes here */} <h3>memory</h3>
+            </div>
+            <div className=" h-14 w-96 bg-green-500 rounded-lg">
+              {/* icon goes here */} <h3>verbal</h3>
+            </div>
+            <div className=" h-14 w-96 bg-purple-500 rounded-lg">
+              {/* icon goes here */} <h3>visual</h3>
+            </div>
           </div>
 
           <button
