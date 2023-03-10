@@ -35,21 +35,17 @@ function App() {
 
         <div className="bg-black rounded-lg overflow-hidden shadow-md h-96">
           <h2>Sumary</h2>
-
-          <div className="">
-            <div className=" h-14 w-96 bg-red-500 rounded-lg">
-              <h3>reaction</h3>
-            </div>
-            <div className=" h-14 w-96 bg-yellow-500 rounded-lg">
-              {/* icon goes here */} <h3>memory</h3>
-            </div>
-            <div className=" h-14 w-96 bg-green-500 rounded-lg">
-              {/* icon goes here */} <h3>verbal</h3>
-            </div>
-            <div className=" h-14 w-96 bg-purple-500 rounded-lg">
-              {/* icon goes here */} <h3>visual</h3>
-            </div>
-          </div>
+              <div className='summary-list'>
+                      {data.map((data) => 
+                          <Summary
+                              key={data.category}
+                              category={data.category}
+                              score={data.score}
+                              icon={data.icon}
+                              background={data.background}
+                      />
+                      )}
+          
 
           <button
             className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
