@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import Summary from './components/summary';
 import data from "./data.json";
 import "./App.css";
 
@@ -56,6 +57,7 @@ function App() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }
