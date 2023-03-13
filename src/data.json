@@ -3,7 +3,7 @@
     "category": "Reaction",
     "score": 80,
     "icon": "./assets/images/icon-reaction.svg",
-    "background": "bg-red-300"
+    "style": "bg-red-500 rounded-lg"
   },
   {
     "category": "Memory",

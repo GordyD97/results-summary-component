@@ -43,7 +43,7 @@ function App() {
                 category={data.category}
                 score={data.score}
                 icon={data.icon}
-                background={data.background}
+                style={data.style}
               />
             ))}
 
