@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import data from "../data.json";
 
 export default function Summary(props) {
     return (
