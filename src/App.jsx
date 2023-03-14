@@ -16,7 +16,7 @@ function App() {
           <h2>your result</h2>
 
           <div className="right card">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center ">
               <h1 className="rounded-full bg-zinc-600 w-64 h-64 flex justify-center items-center">
                 76
               </h1>
@@ -36,7 +36,7 @@ function App() {
 
         <div className="bg-gray-400 rounded-lg overflow-hidden shadow-md h-96">
           <h2>Sumary</h2>
-          <div className="summary-list">
+          <div className="summary-list py-6">
             {data.map((data) => (
               <Summary
                 key={data.category}
